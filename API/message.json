@@ -1,0 +1,439 @@
+{
+    "userID": [
+      {
+        "name": "EmotionalDependency",
+        "description": "Describes how a person manages emotional connections in relationships, including their comfort level with seeking or providing emotional support.",
+        "exampleQuestion": "How often do you feel the need to check in with your partner for emotional support?",
+        "options": [
+          "Independent with occasional emotional support",
+          "Interdependent with regular check-ins",
+          "Needs consistent reassurance"
+        ]
+      },
+      {
+        "name": "ImaginationAndFantasy",
+        "description": "Reflects how much an individual values imagination and creativity, and their comfort with fantasizing about future possibilities.",
+        "exampleQuestion": "Do you enjoy daydreaming about future plans, or do you prefer focusing on realistic goals?",
+        "options": [
+          "Loves creative daydreaming and making plans for the future",
+          "Focuses primarily on realistic, achievable goals",
+          "Enjoys imaginative thinking but keeps it private"
+        ]
+      },
+      {
+        "name": "SentimentalAttachment",
+        "description": "Indicates how emotionally attached a person is to objects or places, and the significance they place on memories associated with them.",
+        "exampleQuestion": "How important are keepsakes and souvenirs to you in maintaining memories?",
+        "options": [
+          "Holds on to keepsakes from memorable experiences",
+          "Values only significant or family-related items",
+          "Prefers not to hold onto sentimental items"
+        ]
+      },
+      {
+        "name": "ExpectationsManagement",
+        "description": "Describes how a person copes with expectations and reality, including how well they adapt to changes or unexpected outcomes.",
+        "exampleQuestion": "How do you react when plans don’t go as expected?",
+        "options": [
+          "Adapts quickly to changes",
+          "Struggles but works on adjusting expectations",
+          "Needs reassurance when plans fall through"
+        ]
+      },
+      {
+        "name": "SpontaneityVsRoutine",
+        "description": "Reflects how much spontaneity versus routine an individual prefers in their daily life and relationships.",
+        "exampleQuestion": "Do you prefer having a set schedule, or do you enjoy spontaneous surprises?",
+        "options": [
+          "Loves surprises within routine",
+          "Prefers stable routines, minimal surprises",
+          "Needs frequent spontaneous changes to stay engaged"
+        ]
+      },
+      {
+        "name": "SelfNarrative",
+        "description": "Describes the roles or narratives that a person holds about themselves, especially during challenging situations.",
+        "exampleQuestion": "How do you usually perceive yourself in challenging situations—are you the problem-solver, supporter, or something else?",
+        "options": [
+          "Sees themselves as a hero during challenges",
+          "Views themselves as a survivor, overcoming adversity",
+          "Takes on the role of mediator in conflicts"
+        ]
+      },
+      {
+        "name": "PhysicalAffection",
+        "description": "Reflects a person's comfort level with physical affection, both in romantic and platonic relationships.",
+        "exampleQuestion": "How comfortable are you with physical gestures of affection, such as hugging or holding hands?",
+        "options": [
+          "Comfortable with casual and platonic touch",
+          "Reserves physical affection for close relationships",
+          "Enjoys frequent affectionate gestures, including with friends"
+        ]
+      },
+      {
+        "name": "CuriosityAndLearningStyle",
+        "description": "Indicates how a person prefers to learn new things, whether through exploration, hands-on activities, or conversations.",
+        "exampleQuestion": "How do you prefer to learn—by reading, doing hands-on activities, or having in-depth discussions?",
+        "options": [
+          "Loves to read and explore new subjects",
+          "Prefers hands-on learning through activities",
+          "Enjoys learning through deep conversations"
+        ]
+      },
+      {
+        "name": "Playfulness",
+        "description": "Describes how playful and lighthearted a person is, and their comfort with engaging in childlike activities.",
+        "exampleQuestion": "How often do you find yourself engaging in playful or spontaneous fun activities?",
+        "options": [
+          "Frequently engages in playful, childlike activities",
+          "Enjoys structured activities more than spontaneous play",
+          "Prefers light playfulness, keeps it moderate"
+        ]
+      },
+      {
+        "name": "EmpathyAndBoundaries",
+        "description": "Reflects how empathetic a person is and how they balance caring for others with setting personal boundaries.",
+        "exampleQuestion": "Do you find it easy to set boundaries while helping others, or do you often put others' needs first?",
+        "options": [
+          "Always helps others, often at personal cost",
+          "Balances caring for others with personal boundaries",
+          "Struggles to set boundaries when helping others"
+        ]
+      },
+      {
+        "name": "IndividualityInRelationships",
+        "description": "Describes how much a person values maintaining their individuality while being in a relationship and how they express that.",
+        "exampleQuestion": "How important is it for you to maintain your hobbies or personal activities while in a relationship?",
+        "options": [
+          "Likes sharing hobbies with partner or friends",
+          "Prefers keeping some hobbies personal",
+          "Needs partner/friend to celebrate their unique quirks"
+        ]
+      },
+      {
+        "name": "ComfortWithBoredom",
+        "description": "Indicates how a person deals with boredom, including their preferences for constant activity or finding comfort in quiet moments.",
+        "exampleQuestion": "How do you typically handle downtime—do you seek out activities, or are you comfortable with quiet time?",
+        "options": [
+          "Needs constant activity to feel engaged",
+          "Finds comfort in quiet, mundane moments",
+          "Relies on hobbies to fill downtime"
+        ]
+      },
+      {
+        "name": "AttitudeTowardAuthority",
+        "description": "Reflects a person's attitude towards rules and authority, whether they prefer structure or challenge conventions.",
+        "exampleQuestion": "Do you prefer following established rules, or do you tend to challenge conventions?",
+        "options": [
+          "Prefers rules and structured environments",
+          "Challenges conventions and likes being non-traditional",
+          "Finds balance between respecting and questioning authority"
+        ]
+      },
+      {
+        "name": "ComfortRituals",
+        "description": "Describes the rituals or activities that provide comfort to a person, including unique or traditional sources of comfort.",
+        "exampleQuestion": "What are some of the rituals or activities that you turn to for comfort?",
+        "options": [
+          "Finds comfort in unique rituals (e.g., sitting in the dark)",
+          "Prefers traditional comforting activities (e.g., tea, reading)",
+          "Enjoys repetitive tasks or activities to feel grounded"
+        ]
+      },
+      {
+        "name": "GiftPreferences",
+        "description": "Reflects a person's attitude towards giving and receiving gifts, including whether they value material or experiential gifts.",
+        "exampleQuestion": "Do you prefer giving and receiving physical gifts, or do you value experiences more?",
+        "options": [
+          "Loves giving and receiving thoughtful gifts",
+          "Prefers experiential gifts over material ones",
+          "Indifferent to the act of gift-giving"
+        ]
+      },
+      {
+        "name": "FoodAndSharedMeals",
+        "description": "Indicates how a person views food and shared meals, whether as a bonding experience, an area for experimentation, or a functional necessity.",
+        "exampleQuestion": "How do you feel about sharing meals—do you see it as a bonding experience, or is it more functional for you?",
+        "options": [
+          "Enjoys cooking and sharing meals as bonding time",
+          "Loves trying new cuisines and experimenting with recipes",
+          "Prefers simple, functional meals without emphasis on sharing"
+        ]
+      },
+      {
+        "name": "EmotionalRiskTaking",
+        "description": "Describes how comfortable a person is with emotional vulnerability, especially early in relationships.",
+        "exampleQuestion": "How comfortable are you with sharing your feelings early in a relationship?",
+        "options": [
+          "Open with feelings early in relationships",
+          "Requires a lot of trust before opening up",
+          "Prefers to keep emotions private"
+        ]
+      },
+      {
+        "name": "AdaptabilityToChanges",
+        "description": "Reflects how well a person adapts to changes and unexpected situations, including their need for support during transitions.",
+        "exampleQuestion": "How do you generally cope with unexpected changes in plans?",
+        "options": [
+          "Easily adaptable to unexpected changes",
+          "Needs time to process sudden changes",
+          "Requires emotional support to adjust to change"
+        ]
+      },
+      {
+        "name": "DetailOrientationVsBigPicture",
+        "description": "Indicates whether a person is more detail-oriented or prefers focusing on the big picture, and how they balance both perspectives.",
+        "exampleQuestion": "Are you more focused on the finer details of a situation, or do you prefer to see the overall picture?",
+        "options": [
+          "Detail-oriented, likes focusing on specifics",
+          "Big-picture thinker, prefers broader perspective",
+          "Enjoys a balance of both detailed and big-picture thinking"
+        ]
+      },
+      {
+        "name": "OpennessToSharingThoughts",
+        "description": "Describes how open a person is about their internal thoughts and emotions, and how much they share with others.",
+        "exampleQuestion": "How open are you when it comes to sharing your thoughts and feelings with others?",
+        "options": [
+          "Open about internal thoughts and emotions",
+          "Keeps personal thoughts mostly private",
+          "Shares selectively depending on trust and comfort"
+        ]
+      },
+      {
+        "name": "HandlingCriticism",
+        "description": "Reflects how a person responds to criticism, whether they are open to constructive feedback or need positive reinforcement.",
+        "exampleQuestion": "How do you typically react to criticism—do you take it constructively, or do you find it challenging at first?",
+        "options": [
+          "Takes feedback as constructive and reflects",
+          "Can be defensive at first, then accepts criticism",
+          "Prefers gentle, positive reinforcement when receiving feedback"
+        ]
+      },
+      {
+        "name": "CreativityAndArt",
+        "description": "Indicates a person's connection to creativity and art, whether as an active form of expression or something they appreciate passively.",
+        "exampleQuestion": "How important is creative expression to you, and do you actively engage in creative activities?",
+        "options": [
+          "Deeply values creative expression as an emotional outlet",
+          "Appreciates creativity but does not practice it personally",
+          "Occasionally enjoys creative activities but doesn't focus on them"
+        ]
+      },
+      {
+        "name": "PatienceLevel",
+        "description": "Describes a person's level of patience, including whether they prefer slow processes or quick results.",
+        "exampleQuestion": "Would you consider yourself a patient person, or do you prefer quick resolutions?",
+        "options": [
+          "Generally very patient, enjoys slow processes",
+          "Impatient, prefers quick results and actions",
+          "Balanced level of patience depending on the situation"
+        ]
+      },
+      {
+        "name": "AttitudeTowardAging",
+        "description": "Reflects a person's perspective on aging, whether they embrace it, feel anxious, or view it neutrally.",
+        "exampleQuestion": "How do you feel about the process of aging—do you embrace it or find it concerning?",
+        "options": [
+          "Embraces aging and celebrates the process",
+          "Anxious about getting older, prefers to avoid the topic",
+          "Sees aging neutrally, as just part of life"
+        ]
+      },
+      {
+        "name": "RepetitionAndHabits",
+        "description": "Indicates a person's comfort with repetitive habits and routines, or their need for variety and change.",
+        "exampleQuestion": "How comfortable are you with routines and repetitive habits?",
+        "options": [
+          "Finds stability in repeated habits and routines",
+          "Prefers variety and change to stay stimulated",
+          "Enjoys a mix of predictable routines and occasional changes"
+        ]
+      },
+      {
+        "name": "KindnessToStrangers",
+        "description": "Describes how a person treats strangers, including their inclination toward random acts of kindness.",
+        "exampleQuestion": "How often do you find yourself performing random acts of kindness for strangers?",
+        "options": [
+          "Regularly practices random acts of kindness",
+          "Kind but indifferent unless prompted",
+          "Reserved, doesn’t engage much with strangers"
+        ]
+      },
+      {
+        "name": "FantasyVsReality",
+        "description": "Reflects how a person balances fantasy and realism, including whether they idealize situations or prefer a practical approach.",
+        "exampleQuestion": "Do you often find yourself idealizing situations, or do you prefer staying grounded in reality?",
+        "options": [
+          "Often idealizes situations and people",
+          "Prefers to stay grounded in reality",
+          "Occasionally indulges in fantasy but tries to stay practical"
+        ]
+      },
+      {
+        "name": "HandlingAwkwardSituations",
+        "description": "Describes how a person handles awkward or uncomfortable situations, whether through humor, avoidance, or direct confrontation.",
+        "exampleQuestion": "How do you usually handle awkward situations—do you try to diffuse them with humor or address them directly?",
+        "options": [
+          "Uses humor to break awkward tension",
+          "Avoids or ignores awkward situations",
+          "Confronts awkwardness directly to resolve it"
+        ]
+      },
+      {
+        "name": "AppreciationOfBeauty",
+        "description": "Indicates how much a person notices and appreciates beauty in their surroundings, and whether they share these moments with others.",
+        "exampleQuestion": "How often do you stop to appreciate the beauty around you, like a sunset or a piece of art?",
+        "options": [
+          "Notices and appreciates beauty in small, everyday moments",
+          "Enjoys beautiful moments privately",
+          "Appreciates beauty but rarely vocalizes it"
+        ]
+      },
+      {
+        "name": "TechnologyAndConnectivity",
+        "description": "Reflects how comfortable a person is with technology, including their preference for constant connectivity or minimal tech use.",
+        "exampleQuestion": "How connected do you prefer to be—do you like staying constantly online, or do you value digital detox time?",
+        "options": [
+          "Very connected, loves constant digital interaction",
+          "Prefers minimal tech use, likes digital detox",
+          "Balances technology use, prefers offline quality time"
+        ]
+      },
+      {
+        "name": "ConflictResolutionStyle",
+        "description": "Describes how a person approaches conflict, whether they avoid confrontation, face issues directly, or need time to process.",
+        "exampleQuestion": "How do you typically handle conflicts—do you prefer addressing them head-on or avoiding confrontation?",
+        "options": [
+          "Prefers avoiding confrontation to keep peace",
+          "Faces issues head-on, values direct conversation",
+          "Needs time to process before addressing conflict"
+        ]
+      },
+      {
+        "name": "HandlingSuccessAndFailure",
+        "description": "Reflects how a person deals with success and failure, including their preference for sharing openly or handling emotions privately.",
+        "exampleQuestion": "When you experience success or failure, do you like to share it with others or prefer keeping it to yourself?",
+        "options": [
+          "Shares achievements and struggles openly",
+          "Prefers celebrating or grieving alone",
+          "Involves close friends or partners in significant moments"
+        ]
+      },
+      {
+        "name": "OpennessToGrowth",
+        "description": "Indicates a person's approach to personal growth, whether they prefer growing with others, individually, or at a gradual pace.",
+        "exampleQuestion": "How do you view personal growth—do you prefer growing alongside others, or do you see it as an individual journey?",
+        "options": [
+          "Believes in growing together with partners/friends",
+          "Sees personal growth as a solo journey",
+          "Likes change but takes gradual steps"
+        ]
+      },
+      {
+        "name": "LocationAndLifestylePreferences",
+        "description": "Describes the type of environment a person prefers to live in, including their openness to relocation.",
+        "exampleQuestion": "What type of environment do you prefer to live in—urban, rural, or are you flexible?",
+        "options": [
+          "Urban, loves city life",
+          "Suburban/Rural, prefers peace and quiet",
+          "Flexible, open to relocation"
+        ]
+      },
+      {
+        "name": "InterestsAndHobbies",
+        "description": "Reflects a person's hobbies and interests, whether they enjoy outdoor activities, creative pursuits, or intellectual engagement.",
+        "exampleQuestion": "What types of activities do you most enjoy—are you more into outdoor adventures, creative hobbies, or intellectual pursuits?",
+        "options": [
+          "Loves outdoor activities (e.g., hiking, running)",
+          "Enjoys artistic hobbies (e.g., painting, writing)",
+          "Interested in intellectual activities (e.g., chess, reading)"
+        ]
+      },
+      {
+        "name": "EducationAndIntellectualCompatibility",
+        "description": "Indicates a person's intellectual preferences, including their value for formal education or life experience, and topics of interest.",
+        "exampleQuestion": "Do you value formal education, or do you prefer learning through life experiences?",
+        "options": [
+          "Values formal education",
+          "Learns best through life experiences",
+          "Prefers discussing complex, thought-provoking topics"
+        ]
+      },
+      {
+        "name": "SocialPreferences",
+        "description": "Describes a person's social style, whether they are extroverted, introverted, or a mix of both.",
+        "exampleQuestion": "How would you describe your social style—do you prefer large gatherings, small groups, or time alone?",
+        "options": [
+          "Extrovert, loves meeting new people and being social",
+          "Introvert, prefers quality time with close friends",
+          "Ambivert, enjoys both socializing and alone time"
+        ]
+      },
+      {
+        "name": "FamilyDynamics",
+        "description": "Reflects a person's relationship with their family, including their expectations for family involvement in their relationships.",
+        "exampleQuestion": "How close are you with your family, and what role do you expect them to play in your relationships?",
+        "options": [
+          "Very close to family, expects partner to integrate",
+          "Keeps distance, prefers not to involve family much",
+          "Seeks balanced relationship with family involvement"
+        ]
+      },
+      {
+        "name": "PastRelationships",
+        "description": "Describes how a person views and deals with their past relationships, whether they are open about them or prefer to keep them private.",
+        "exampleQuestion": "How comfortable are you discussing your past relationships—do you see them as valuable learning experiences?",
+        "options": [
+          "Open and honest about past relationships",
+          "Prefers not to talk about the past often",
+          "Uses past relationships to learn and grow"
+        ]
+      },
+      {
+        "name": "ReligionAndSpiritualBeliefs",
+        "description": "Indicates a person's religious or spiritual beliefs, including their level of practice and openness to differing beliefs.",
+        "exampleQuestion": "How important are religious or spiritual beliefs in your life, and do you prefer having a partner with similar beliefs?",
+        "options": [
+          "Actively religious/spiritual, needs similar values",
+          "Spiritually curious, open-minded",
+          "Indifferent, respects others’ beliefs but not personally engaged"
+        ]
+      }
+    ],
+    "TraditionalAttributes": {
+      "Gender": ["Male", "Female", "Non-binary", "Prefer not to say"],
+      "Sexuality": ["Heterosexual", "Homosexual", "Bisexual", "Pansexual", "Asexual", "Prefer not to say"],
+      "RelationshipPreferences": ["Monogamous", "Open relationships", "Polyamorous", "Undecided"],
+      "AgeGroup": ["18-24", "25-34", "35-44", "45-54", "55+"],
+      "ActivityPreferences": [
+        "Enjoys outdoor activities (e.g., hiking, camping)",
+        "Prefers social gatherings (e.g., parties, dinners)",
+        "Enjoys quiet activities (e.g., reading, crafting)",
+        "Loves fitness and sports"
+      ],
+      "InterestsAndHobbies": [
+        "Arts and crafts",
+        "Cooking and baking",
+        "Music and concerts",
+        "Traveling and adventure",
+        "Gaming"
+      ],
+      "EducationLevel": ["High school", "Some college", "Bachelor’s degree", "Master’s degree", "Doctorate", "Other"],
+      "Diet": ["Vegetarian", "Vegan", "Omnivore", "Carnivore"],
+      "SmokingHabits": ["Non-smoker", "Occasional smoker", "Heavy smoker"],
+      "DrinkingHabits": ["Non-drinker", "Social drinker", "Occasional drinker", "Regular drinker", "Heavy drinker"],
+      "SpiritualityReligion": {
+        "PersonalSpiritualityReligion": [
+          "Actively religious/spiritual",
+          "Spiritually curious, open-minded",
+          "Indifferent to spirituality"
+        ],
+        "PreferenceForPartnerSpirituality": [
+          "Needs similar spiritual/religious values",
+          "Open to different beliefs",
+          "Indifferent to partner's spirituality"
+        ]
+      }
+    }
+  }
